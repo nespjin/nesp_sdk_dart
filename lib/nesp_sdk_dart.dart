@@ -15,8 +15,6 @@ library nesp_sdk_dart;
 
 export 'package:get_it/get_it.dart';
 
-export 'src/utils.dart';
-
 export 'lang.dart';
 export 'math.dart';
 export 'data.dart';
