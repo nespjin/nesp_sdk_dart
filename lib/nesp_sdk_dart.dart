@@ -1,3 +1,8 @@
-int calculate() {
-  return 6 * 7;
-}
+/// Support for doing something awesome.
+///
+/// More dartdocs go here.
+library;
+
+export 'src/nesp_sdk_dart_base.dart';
+
+// TODO: Export any libraries intended for clients of this package.
