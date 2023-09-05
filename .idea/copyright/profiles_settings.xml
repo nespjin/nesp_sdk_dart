@@ -1,7 +1,7 @@
 <component name="CopyrightManager">
-  <settings default="NESP">
+  <settings default="Apache">
     <module2copyright>
-      <element module="All" copyright="NESP" />
+      <element module="All" copyright="Apache" />
     </module2copyright>
   </settings>
 </component>
