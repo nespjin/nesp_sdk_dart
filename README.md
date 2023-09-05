@@ -1,2 +1,2 @@
-# nesp_sdk_dart
-Nesp Software Development for Dart
+A sample command-line application with an entrypoint in `bin/`, library code
+in `lib/`, and example unit test in `test/`.
