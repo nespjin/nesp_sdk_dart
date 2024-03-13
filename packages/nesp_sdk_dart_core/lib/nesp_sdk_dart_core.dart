@@ -11,7 +11,7 @@
  *
  */
 
-library nesp_sdk_dart;
+library;
 
 export 'package:get_it/get_it.dart';
 
