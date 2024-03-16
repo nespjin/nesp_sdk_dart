@@ -16,5 +16,4 @@ library;
 export 'package:get_it/get_it.dart';
 
 export 'lang.dart';
-export 'math.dart';
 export 'data.dart';

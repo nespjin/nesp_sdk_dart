@@ -13,14 +13,5 @@
 
 library lang;
 
-export 'package:characters/characters.dart';
-
-export 'src/lang/num.dart';
-export 'src/lang/iterable.dart';
-export 'src/lang/list.dart';
-export 'src/lang/string.dart';
-export 'src/lang/object.dart';
 export 'src/lang/nullable.dart';
-export 'src/lang/async.dart';
 export 'src/lang/tuple.dart';
-export 'src/lang/date_time.dart';
