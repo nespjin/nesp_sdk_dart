@@ -15,5 +15,10 @@ library;
 
 export 'package:get_it/get_it.dart';
 
+export 'src/exceptions.dart';
+export 'src/result.dart';
+export 'src/stream_subscription_registry.dart';
+export 'src/initializer.dart';
+
 export 'lang.dart';
 export 'data.dart';
