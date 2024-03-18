@@ -1,3 +1,9 @@
+## 0.0.1-dev.5
+
+- Make cancelAll returns Future on StreamSubscriptionRegistry
+- Add DaemonTask, DaemonService
+- Add debugger
+
 ## 0.0.1-dev.4
 
 - Add code for ErrorResult

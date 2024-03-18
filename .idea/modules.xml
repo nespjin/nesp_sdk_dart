@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/packages/nesp_sdk_dart/melos_nesp_sdk_dart.iml" filepath="$PROJECT_DIR$/packages/nesp_sdk_dart/melos_nesp_sdk_dart.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/nesp_sdk_dart_core/melos_nesp_sdk_dart_core.iml" filepath="$PROJECT_DIR$/packages/nesp_sdk_dart_core/melos_nesp_sdk_dart_core.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/nesp_sdk_dart_dtx/melos_nesp_sdk_dart_dtx.iml" filepath="$PROJECT_DIR$/packages/nesp_sdk_dart_dtx/melos_nesp_sdk_dart_dtx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/nesp_sdk_dart_file_downloader/melos_nesp_sdk_dart_file_downloader.iml" filepath="$PROJECT_DIR$/packages/nesp_sdk_dart_file_downloader/melos_nesp_sdk_dart_file_downloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/nesp_sdk_dart_http/melos_nesp_sdk_dart_http.iml" filepath="$PROJECT_DIR$/packages/nesp_sdk_dart_http/melos_nesp_sdk_dart_http.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/nesp_sdk_dart_math/melos_nesp_sdk_dart_math.iml" filepath="$PROJECT_DIR$/packages/nesp_sdk_dart_math/melos_nesp_sdk_dart_math.iml" />
       <module fileurl="file://$PROJECT_DIR$/melos_password_manager.iml" filepath="$PROJECT_DIR$/melos_password_manager.iml" />
     </modules>

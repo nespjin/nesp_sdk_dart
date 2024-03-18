@@ -6,7 +6,7 @@ final class StreamSubscriptionRegistry {
   final List<StreamSubscription> _subscriptions = [];
 
   void register(StreamSubscription subscription) {
-    if(_subscriptions.contains(subscription)) return;
+    if (_subscriptions.contains(subscription)) return;
     _subscriptions.add(subscription);
   }
 
@@ -14,9 +14,9 @@ final class StreamSubscriptionRegistry {
     _subscriptions.remove(subscription);
   }
 
-  void cancelAll() {
+  Future<void> cancelAll() async {
     for (final subscription in _subscriptions) {
-      subscription.cancel();
+      await subscription.cancel();
     }
     _subscriptions.clear();
   }
