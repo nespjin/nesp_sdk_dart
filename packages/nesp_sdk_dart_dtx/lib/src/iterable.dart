@@ -179,4 +179,16 @@ extension IterableExtension<E> on Iterable<E> {
     } while (it.moveNext());
     return result;
   }
+
+  bool equals(Iterable<E> other) {
+    if (this == other) return true;
+    if (length != other.length) return false;
+
+    final it = iterator;
+    final otherIt = other.iterator;
+    while (it.moveNext() && otherIt.moveNext()) {
+      if (it.current != otherIt.current) return false;
+    }
+    return true;
+  }
 }
