@@ -11,6 +11,7 @@
  *
  */
 
+import 'dart:typed_data';
 
 extension NullableListExtension<E> on List<E>? {
   List<E> or(List<E> other) => this == null ? other : this!;
@@ -23,4 +24,8 @@ extension ListExtension<E> on List<E> {
     if (index < 0 || index > length - 1) return null;
     return this[index];
   }
+}
+
+extension IntListExtension on List<int> {
+  Uint8List toBytes() => Uint8List.fromList(this);
 }
