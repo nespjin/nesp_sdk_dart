@@ -1,6 +1,6 @@
 name: nesp_sdk_dart
 description: The nesp software development kit for dart.
-version: 1.0.0-dev.4
+version: 1.0.0-dev.5
 repository: https://github.com/nespjin/nesp_sdk_dart
 
 environment:
