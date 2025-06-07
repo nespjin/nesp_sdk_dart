@@ -1,6 +1,6 @@
 name: nesp_sdk_dart_http
 description: The Http library for the NESP Dart software development kit.
-version: 0.0.1-dev.1
+version: 0.0.1-dev.2
 repository: https://github.com/nespjin/nesp_sdk_dart
 
 environment:
