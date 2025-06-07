@@ -10,6 +10,11 @@ ignore:
   - "packages/nesp_sdk_flutter_old"
 
 scripts:
+  publish:
+    run: |
+      melos exec -c 1 -- flutter pub publish --server https://pub.dev -f 
+    description: Publish all packages to pub.dev.
+    
   update-sdk-version:
     run: |
       melos exec -c 6 -- \
