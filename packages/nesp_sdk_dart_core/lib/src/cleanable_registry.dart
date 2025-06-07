@@ -13,7 +13,6 @@
 import 'cleanable.dart';
 import 'registry.dart';
 
-
 class CleanableRegistry<T extends Cleanable> extends Registry<T> {
   @override
   void clear() {
