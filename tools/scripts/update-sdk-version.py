@@ -15,6 +15,8 @@ def update_sdk_version(version):
                 logging.info("Updating sdk version from %s to %s",
                              old_version, version)
                 line = "  sdk: " + version + "\n"
+                # line = "  sdk: " + version + "\n\n"
+                # line += "resolution: workspace\n"
                 is_in_environment = False
             content += f"{line}"
 
