@@ -3,7 +3,7 @@
 # BSD-style license that can be found in the LICENSE file.
 
 
-
+PACKAGE_NAME_PREFIX = 'nesp_sdk_dart'
 DESCRIPTION = 'The Http library for the NESP Dart software development kit.'
 REPOSITORY = 'https://github.com/nespjin/nesp_sdk_dart'
 SDK_VERSION = '^3.3.0'
