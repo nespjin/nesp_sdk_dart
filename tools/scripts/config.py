@@ -4,6 +4,6 @@
 
 
 PACKAGE_NAME_PREFIX = 'nesp_sdk_dart'
-DESCRIPTION = 'The Http library for the NESP Dart software development kit.'
+DESCRIPTION = 'The $PACKAGE_NAME library for the NESP Flutter software development kit.'
 REPOSITORY = 'https://github.com/nespjin/nesp_sdk_dart'
 SDK_VERSION = '^3.3.0'
