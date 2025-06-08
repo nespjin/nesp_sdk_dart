@@ -72,7 +72,7 @@ def delete_unused_files(package_dir_path, package_name):
         f.write("")
 
 
-def create_package(packages_path, package_name):
+def create_package(workspace_dir_path, packages_path, package_name):
     package_dir = os.path.join(packages_path, package_name)
     if os.path.exists(package_dir):
         logging.info("Package already exists: {}".format(package_name))
@@ -86,7 +86,7 @@ def create_package(packages_path, package_name):
     update_pubspec(os.path.join(package_dir, "pubspec.yaml"))
     update_change_log(os.path.join(package_dir, "CHANGELOG.md"), package_name)
     update_readme(os.path.join(package_dir, "README.md"), package_name)
-    license_file_path = os.path.join(os.path.dirname(__file__), "LICENSE")
+    license_file_path = os.path.join(workspace_dir_path, "LICENSE")
     add_license(license_file_path, package_dir)
     delete_unused_files(package_dir, package_name)
 
@@ -99,13 +99,13 @@ def main():
 
     package_names = sys.argv[1:]
 
-    working_dir = os.path.realpath(__file__)
+    workspace_dir_path = os.path.realpath(__file__)
     for _ in range(3):
-        working_dir = os.path.dirname(working_dir)
+        workspace_dir_path = os.path.dirname(workspace_dir_path)
 
-    packages_path = os.path.join(working_dir, "packages")
+    packages_path = os.path.join(workspace_dir_path, "packages")
     for package_name in package_names:
-        create_package(packages_path, package_name)
+        create_package(workspace_dir_path, packages_path, package_name)
 
 
 if __name__ == "__main__":
