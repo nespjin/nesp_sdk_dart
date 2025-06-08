@@ -1,5 +1,8 @@
+#!/usr/bin/env python3
+
 import logging
 import sys
+import config
 
 
 def update_sdk_version(version):
@@ -25,11 +28,10 @@ def update_sdk_version(version):
 
 
 def main():
-    if len(sys.argv) != 2:
-        logging.error("Usage:\n %s <version>", sys.argv[0])
-        sys.exit(1)
-    version = sys.argv[1]
-    update_sdk_version(version)
+    sdk_version = config.SDK_VERSION
+    if len(sys.argv) >= 2:
+        sdk_version = sys.argv[1]
+    update_sdk_version(sdk_version)
 
 
 if __name__ == "__main__":
